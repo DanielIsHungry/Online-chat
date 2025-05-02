@@ -6,9 +6,9 @@ from tkinter.simpledialog import askstring
 
 
 class Application:
-    CRED = credentials.Certificate("python-backend-test-229d2-firebase-adminsdk-fbsvc-f463d3b6e9.json")
+    CRED = 'your credentials here' # Insert your firebase credentials here
     firebase_admin.initialize_app(CRED, {
-        'databaseURL': 'https://python-backend-test-229d2-default-rtdb.firebaseio.com/' # no steal gr
+        'databaseURL': 'your-app-here' # Insert your application here
     })
     print('started firebase')
 
